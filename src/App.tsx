@@ -11,9 +11,8 @@ export const App = () => {
 }
 
 const AppWrapper = styled.div`
-    background-color: #e5e5e5;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 `
