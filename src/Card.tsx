@@ -13,10 +13,14 @@ export const Card = () => {
                 </p>
             </ContentWrapper>
             <ButtonsSection>
-                <StyledButton fontColor={'#FFF'} bgColor={'#4E71FE'} onClick={() => {
-                }} title={'See More'}/>
-                <StyledButton borderColor={'solid 2px #4E71FE'} fontColor={'#4E71FE'} bgColor={'#FFF'} onClick={() => {
-                }} title={'Save'}/>
+                <StyledButton variant={'primary'}
+                              onClick={() => {}}
+                              title={'See More'}
+                />
+                <StyledButton variant={'outlined'}
+                              onClick={() => {
+                              }} title={'Save'}
+                />
             </ButtonsSection>
         </CardWrapper>
     )
@@ -32,8 +36,8 @@ const CardWrapper = styled.article`
     padding: 10px 10px 10px 10px;
     box-shadow: 0 4px 20px 5px #0000001A;
 `
+
 const ContentWrapper = styled.section`
-    font-family: Inter, sans-serif;
 
     h1 {
         padding: 20px 10px 20px 10px;
@@ -57,4 +61,3 @@ const ButtonsSection = styled.section`
     gap: 12px;
     flex-wrap: wrap;
 `
-
