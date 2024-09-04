@@ -10,7 +10,7 @@ export const App = () => {
     )
 }
 
-const AppWrapper = styled.div`
+const AppWrapper = styled.main`
     position: absolute;
     top: 50%;
     left: 50%;
