@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hrsk/card-example/static/css/main.929de130.css",
-    "main.js": "/hrsk/card-example/static/js/main.53ec19c7.js",
-    "static/js/453.062fe5ec.chunk.js": "/hrsk/card-example/static/js/453.062fe5ec.chunk.js",
-    "static/media/Rectangle 1.png": "/hrsk/card-example/static/media/Rectangle 1.29401e072345b1680d8f.png",
-    "index.html": "/hrsk/card-example/index.html",
-    "main.929de130.css.map": "/hrsk/card-example/static/css/main.929de130.css.map",
-    "main.53ec19c7.js.map": "/hrsk/card-example/static/js/main.53ec19c7.js.map",
-    "453.062fe5ec.chunk.js.map": "/hrsk/card-example/static/js/453.062fe5ec.chunk.js.map"
+    "main.css": "/card-example/static/css/main.929de130.css",
+    "main.js": "/card-example/static/js/main.20651419.js",
+    "static/js/453.062fe5ec.chunk.js": "/card-example/static/js/453.062fe5ec.chunk.js",
+    "static/media/Rectangle 1.png": "/card-example/static/media/Rectangle 1.29401e072345b1680d8f.png",
+    "index.html": "/card-example/index.html",
+    "main.929de130.css.map": "/card-example/static/css/main.929de130.css.map",
+    "main.20651419.js.map": "/card-example/static/js/main.20651419.js.map",
+    "453.062fe5ec.chunk.js.map": "/card-example/static/js/453.062fe5ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.929de130.css",
-    "static/js/main.53ec19c7.js"
+    "static/js/main.20651419.js"
   ]
 }
