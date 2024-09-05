@@ -1,4 +1,5 @@
 import styled, {css} from "styled-components";
+import {baseTheme} from "../styles/theme";
 
 type ButtonVariant = 'primary' | 'outlined'
 
@@ -25,8 +26,8 @@ export const StyledButton = (props: IStyledProps) => {
 }
 
 const Button = styled.button<ButtonPropsType>`
-    width: 86px;
-    height: 30px;
+    width: ${baseTheme.sizes.button.width};
+    height: ${baseTheme.sizes.button.height};
     border-radius: 5px;
     border: none;
     font-weight: 700;
@@ -38,14 +39,14 @@ const Button = styled.button<ButtonPropsType>`
         switch (props.variant) {
             case "primary":
                 return css<ButtonPropsType>`
-                    background-color: ${props => props.bgColor || '#4E71FE'};
-                    color: ${props => props.fontColor || '#FFF'};
+                    background-color: ${props => props.bgColor || `${baseTheme.colors.buttons.primary}`};
+                    color: ${props => props.fontColor || `${baseTheme.colors.background.primary}`};
                 `
             case "outlined":
                 return css<ButtonPropsType>`
-                    border: solid 2px ${props => props.borderColor || '#4E71FE'};
-                    background-color: ${props => props.bgColor || '#FFF'};
-                    color: ${props => props.fontColor || '#4E71FE'};
+                    border: solid 2px ${props => props.borderColor || `${baseTheme.colors.buttons.primary}`};
+                    background-color: ${props => props.bgColor || `${baseTheme.colors.background.primary}`};
+                    color: ${props => props.fontColor || `${baseTheme.colors.buttons.primary}`};
                 `
         }
     }

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import desert from './images/Rectangle 1.png';
 import {StyledButton} from "./components/Button.styled";
+import {baseTheme} from "./styles/theme";
 
 export const Card = () => {
     return (
@@ -29,12 +30,14 @@ export const Card = () => {
 const CardWrapper = styled.article`
     display: flex;
     flex-direction: column;
-    background-color: #FFF;
-    width: 300px;
+    background-color: ${baseTheme.colors.background.primary};
+    width: ${baseTheme.sizes.container.width};
     min-height: 350px;
     border-radius: 15px;
     padding: 10px 10px 10px 10px;
-    box-shadow: 0 4px 20px 5px #0000001A;
+    box-shadow: 0 4px 20px 5px ${baseTheme.colors.shadows.light};
+    font-family: Inter, sans-serif;
+
 `
 
 const ContentWrapper = styled.section`
@@ -51,7 +54,7 @@ const ContentWrapper = styled.section`
         font-weight: 500;
         font-size: 12px;
         line-height: 20px;
-        color: #ABB3BA;
+        color: ${baseTheme.colors.text.description};
     }
 `
 

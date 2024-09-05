@@ -15,5 +15,4 @@ const AppWrapper = styled.main`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: Inter, sans-serif;
 `

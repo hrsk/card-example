@@ -2,16 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {App} from './App';
 import reportWebVitals from './reportWebVitals';
-import {GlobalStyles} from "./styles/GlobalStyles";
+import {Global} from "./styles/global";
+import {ThemeProvider} from "styled-components";
+import {baseTheme} from "./styles/theme";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
 root.render(
-    <>
+    <ThemeProvider theme={baseTheme}>
         <App/>
-        <GlobalStyles/>
-    </>
+        <Global/>
+    </ThemeProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

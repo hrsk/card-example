@@ -1,6 +1,6 @@
 import {createGlobalStyle} from "styled-components";
 
-export const GlobalStyles = createGlobalStyle`
+export const Global = createGlobalStyle`
     /* Указываем box sizing */
     *,
     *::before,
